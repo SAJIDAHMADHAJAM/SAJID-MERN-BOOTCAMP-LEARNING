@@ -1,0 +1,16 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.translated{
+
+    /* for z-axis we have to use prespective for 3D transformations. */
+    transform:  perspective(100px) translateZ(-50px);
+
+}
+.scaled{
+    margin-left: 200px;
+    transform: perspective(100px) scaleZ(2) rotateY(25deg);
+}
